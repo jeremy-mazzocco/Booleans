@@ -1,0 +1,87 @@
+* {
+  font-family: Poppins,ui-sans-serif,system-ui,sans-serif;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  height: 750px;
+}
+
+.main-box {
+  margin: auto;
+  width: 950px;
+  height: 700px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+header {
+  text-align: center;
+  height: 225px;
+}
+
+.logo-box {
+  padding-top: 90px;
+}
+
+#logo {
+  width: 200px;
+}
+
+h2 {
+      margin: 3px;
+      color: rgb(0 221 0);
+}
+
+.nav-box {
+  height: 40px;
+  width: 800px;
+  background-color: rgb(0 221 0);
+  margin: auto;
+}
+
+.button-box {
+  text-align: center;
+  padding: 8px;
+}
+
+.mono-box {
+  margin: 15px 75px 15px 75px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  color: white;
+}
+
+.mono-box > p {
+  margin: 0px;
+  color: white;
+}
+
+#arrow::before {
+  content: "\21A6 \00a0";
+}
+
+.carica {
+  min-height: 25px;
+  border-radius: 5px;
+}
+
+.gino {
+  background-color: rgb(255, 194, 102);
+  width: 285px;
+}
+
+.mike {
+  background-color: rgb(0 221 0);
+  width: 480px;
+}
+
+.fede {
+ background-color: rgb(255, 102, 102);
+ width: 130px;
+}
